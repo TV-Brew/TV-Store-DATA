@@ -19,15 +19,16 @@ To list your app, your submission must be placed inside the `apps/` directory an
 apps/
 └── [Your-App-Name]/
     ├── apk/
-    │   └── app.apk
+    │   ├── app.apk
+    │   └── logo.png  [OPTIONAL]
     └── info/
         ├── description.txt
         └── privacy.txt
 ```
 
-### 🔹 1. The APK Folder (`/apk/`)
-* Contains your compiled Android application package.
-* **Requirement:** The file must be named exactly **`app.apk`** (lowercase).
+### 🔹 1. The APK & Media Folder (`/apk/`)
+* **`app.apk`**: Contains your compiled Android application package. **(REQUIRED)**
+* **`logo.png`**: An optional TV Banner image in landscape orientation (e.g., 16:9 ratio). If provided, the TV Store will render this logo image on the card instead of displaying the application name as plain text. **(OPTIONAL)**
 
 ### 🔹 2. The Info Folder (`/info/`)
 This folder must contain exactly two configuration files:
@@ -53,7 +54,7 @@ DATA_DELETION_REQUEST: [Yes / No / Link to deletion form]
 
 1. **Fork** this repository.
 2. Navigate to the `apps/` directory and create a new folder for your app following the structure above.
-3. Upload your `app.apk`, `description.txt`, and `privacy.txt`.
+3. Upload your `app.apk`, `description.txt`, `privacy.txt`, and optionally your landscape `logo.png`.
 4. Open a **Pull Request** (PR) to the main repository.
 
 Once the PR is merged, your app will instantly become visible and installable on all TV Store devices worldwide.
