@@ -1,0 +1,2 @@
+Send Files to TV
+A simple application to connect your Smart TV, Android mobile device, and personal computer over the local network. It allows you to easily and quickly share movies, TV shows, APKs, or any other files between your devices via Wi-Fi, completely without an active internet connection.
